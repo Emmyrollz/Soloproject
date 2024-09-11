@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #1d3557;
+  line-height: 25px;
+}
+  
+img {
+  width: 100px;
+}
+ 
+/* Top section of the webpage: picture */
+.hero {
+  color: #ffffff;
+  height: 400px;
+  background-image: url(images/Lagos.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4%;
+  margin: 0px;
+}
+  
+/* Top section of the webpage: first texts */
+#title {
+  background: #1d3557;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 10px auto 40px auto;
+}
+
+/* Top section of the webpage: first texts */
+#intro {
+  background: #457b9d;
+  padding: 15px 5px;
+  border-radius: 5px;
+  width: 750px;
+  line-height: 40px;
+  margin: 0px auto 0px auto;
+}
+  
+/* middle section pictures and text write up */
+#activities {
+  background-color: #f1faee;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  #images-writeup {
+  width: 950px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+  
+.images{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+  
+.activity {
+  width: 250px;
+  font-weight: 500;
+}
+ 
+/* last section about myself */
+.card {
+  width: 450px;
+  margin: 80px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background: #a8dadc;
+  color: #2b2839;
+  border-bottom: 6px solid #1d3557;
+  border-radius: 10px;
+}
+  
+.avatar {
+  object-fit: cover;
+  width: 200px;
+  border-radius: 10px;
+  height: 300px;
+  padding: 0px 20px;
+}
